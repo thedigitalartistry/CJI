@@ -47,18 +47,18 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link" href="javascript:void(0)">About us</a></li>
-              <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Categories</a></li>
-              <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#banner">About us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#category">Categories</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
               </ul>
           </div>
       </nav>
   </div>
   <!-- header section ends here -->
   <!-- banner section starts here -->
-  <div class="banner-wrapper">
-      <video autoplay muted loop id="shipvedio">
+  <div class="banner-wrapper" id="banner">
+      <video autoplay muted loop playsinline id="shipvedio">
           <source src="images/banner.mov" type="video/mp4">
       </video>
       <div class="vedio-banner-text">
@@ -79,7 +79,7 @@
               <h1 class="service-text textcolor-black">SERVICES</h1>
               <h4 class="service-image-text">Warehouse And Fulfillment Center</h4>
             </div>
-            <div class="service-image _2"><img src="images/photo2-1.png" alt="">
+            <div class="service-image _2"><img src="images/photo2-1.jpg" alt="">
               <h1 class="service-text-2 textcolor-black outline-text">SERVICES</h1>
               <h4 class="service-image-text">Customer Support</h4>
             </div>
@@ -135,7 +135,7 @@
     </div>
     <!-- our categories section starts here -->
     <!-- content section starts here -->
-    <div class="content-wrapper">
+    <div class="content-wrapper" id="category">
       <section class="categories-wrap">
           <div class="container">
               <h2>Our Categories</h2>
@@ -242,7 +242,7 @@
       <!-- our categories section ends here -->
   </div>
   <!-- conatct section starts here -->
-  <div class="contact-wrap">
+  <div class="contact-wrap" id="contact-us">
       <h2 class="form-head-title">Contact us</h2>
       <!-- form  starts-->
       <div class="form-wrapper">
@@ -297,15 +297,18 @@
   <div class="footer-wrap">
       <div class="container">
           <div class="row align-items-center">
-              <div class="col-sm-6">
+              <div class="col-sm-8">
                   <div class="cji-image">
                       <img src="images/cji-trading.png" alt="">
                   </div>
               </div>
-              <div class="col-sm-6">
-                  <div class="cji-text">
+              <div class="col-sm-4">
+                  <div class="cji-text" style="    text-align: left;">
+                  <h5 style="margin-right: 0px;">Address:</h5>
+                  <h5>250 West Nyack, West Nyack, NY, 10994</h5>
                       <h5>contact:</h5>
                       <h5>Info@cjillc.com</h5>
+
                   </div>
               </div>
           </div>

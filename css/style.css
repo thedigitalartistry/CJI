@@ -19,6 +19,7 @@ body, input, textarea,button{
 body{
 
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 
 
 
@@ -1027,7 +1028,7 @@ ul {
 
 	font-weight: bold;
 
-	font-size: 20px;
+	font-size: 16px;
 
 	line-height: 24px;
 
@@ -1610,13 +1611,13 @@ ul {
 
 	#services{
 
-		display: none;
+		display: block;
 
 	}
 
 	.carosel-wrapper{
 
-		display: block;
+		display: none;
 
 	}
 
@@ -1866,10 +1867,13 @@ ul {
 	.vedio-banner-text {
 		padding-left: 35px;
 	}
+
+
+
 }
 
 @media(max-width:475px){
-
+	.cji-text h5 { font-size: 14px; }
 	.section.services {
 
 		height: 500px;
